@@ -13,6 +13,9 @@
     <script>
         $(function() {
             $( "#draggable" ).draggable();
+            $("#draggable").resizable({
+                handles: 'n, e, s, w'
+            });
         });
     </script>
 </head>
